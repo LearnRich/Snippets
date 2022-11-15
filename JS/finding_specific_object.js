@@ -1,5 +1,5 @@
 let customers = [
-    {id: 0, nqame: 'Ben'},
+    {id: 0, name: 'Ben'},
     {id: 1, name: 'Charlotte'},
     {id: 2, name: 'Abigail'},
     {id: 3, name: 'Caitlin'}

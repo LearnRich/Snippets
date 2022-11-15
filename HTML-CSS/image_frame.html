@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        :root{
+            --img-height: 145px;
+
+        }
+
+        .image-container {
+            width: 125px;
+            max-height: var(--img-height);
+            overflow: hidden;
+            position: relative;
+        }
+
+        img {
+            max-height: var(--img-height);
+            transform: translateX(-25%);
+        }
+
+
+    </style>
+
+    <body>
+        <div class="image-container">
+            <img class="center" src="web.png" alt=""/>
+        </div>
+    </body>
+</html>
