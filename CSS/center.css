@@ -1,0 +1,11 @@
+.parent-center-children { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent-center-children {
+    display: grid;
+    place-items: center;
+}
+

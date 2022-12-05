@@ -1,0 +1,9 @@
+html {
+    --viewport-width: 1000px;
+    --viewport-height: 800px;
+    --sky-height: calc(2*var(--viewport-height)/3);
+    --sky-width: var(var(--viewport-width));
+    --ground-height: calc(var(--viewport-height)/3);
+    --ground-width: var(var(--viewport-width));
+}
+
